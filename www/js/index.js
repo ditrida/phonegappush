@@ -58,6 +58,7 @@ var app = {
     // result contains any message sent from the plugin call
     successHandler: function(result) {
         alert('Callback Success! Result = '+result)
+		
     },
     errorHandler:function(error) {
         alert(error);
@@ -70,6 +71,7 @@ var app = {
                 {
                     console.log("Regid " + e.regid);
                     alert('registration id = '+e.regid);
+					document.getElementById('div_id').innerHTML=""+e.regid+"";
                 }
             break;
  
