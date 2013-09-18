@@ -71,7 +71,7 @@ var app = {
                 {
                     console.log("Regid " + e.regid);
                     alert('registration id = '+e.regid);
-					document.getElementById('div_id').innerHTML=""+e.regid+"";
+					document.getElementById('div_id').innerHTML=e.regid;
                 }
             break;
  
